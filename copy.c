@@ -49,8 +49,6 @@ int main(int argc, char const *argv[]) {
     printf("\n");
     write(fd2, data, tmp * sizeof(char));
   }
-
-  write(fd2,'\',)
   close(fd2);
 
 
